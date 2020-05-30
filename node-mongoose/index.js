@@ -9,27 +9,27 @@ connect.then((db) => {
 
     console.log('Connected correctly to server');
 
-    var newFood = Foods({
+    Foods.create({
         name: 'Mango',
         description: 'Yellow'
-    });
+    })
+    .then((food) => {
+        console.log(food);
 
-    newFood.save()
-        .then((food) => {
-            console.log(food);
-
-            return Foods.find({});
-        })
-        .then((foods) => {
-            console.log(foods);
-
-            return Foods.remove({});
-        })
-        .then(() => {
-            return mongoose.connection.close();
-        })
-        .catch((err) => {
-            console.log(err);
+        return Foods.findByIdAndUpdate(food._id,{
+            $set : {description : 'Updated'}
         });
+    })
+    .then((foods) => {
+        console.log(foods);
+
+        return Foods.remove({});
+    })
+    .then(() => {
+        return mongoose.connection.close();
+    })
+    .catch((err) => {
+        console.log(err);
+    });
 
 });
