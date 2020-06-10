@@ -10,11 +10,11 @@ foodRouter.use(bodyParser.json());
 
 foodRouter.route('/foods')
     .get((req, res, next) => {
-        Foods.find({foods})
-            .then((food) => {
+        db.Foods.find({})
+            req.then((foods) => {
                 res.statusCode = 200;
                 res.setHeader('Content-Type', 'application/json');
-                res.json(food);
+                res.json(foods);
             }, (err) => next(err))
             .catch((err) => next(err));
 
