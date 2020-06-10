@@ -3,33 +3,33 @@ const Schema = mongoose.Schema;
 
 const nutritionSchema = new Schema({
     Energy: {
-        type : mixed,
+        type : String,
         required : true 
     },
     Carbohydrates : {
-        type : mixed,
+        type : String,
         required : true
     },
     Sugar : {
-        type : mixed,
+        type : String,
         required : true
     },
     DietaryFiber : {
-        type : mixed,
+        type : String,
         required : true
     
 
     },
     fat : {
-        type : mixed,
+        type : String,
         required : true
     } ,
     protein : {
-        type : mixed,
+        type : String,
         required : true
     },
     water : {
-        type : mixed,
+        type : String,
         required : true
     }
 
@@ -37,7 +37,7 @@ const nutritionSchema = new Schema({
 });
 const imageSchema = new Schema ({
     image : {
-        type : image,
+        type : String,
         required : true
 
     }
@@ -110,19 +110,13 @@ const foodSchema = new Schema({
         type: String,
         required: true
     },
-    nutrition : [nutritionSchema]
-    ,
-    description: {
-        type: String,
-        required: true
-    },
-    image : [imageSchema]
-},
+    nutrition : [nutritionSchema],
 
-{
-    timestamps: true
+    
+        timestamps: true
+    
 });
 
-var Foodss = mongoose.model('Dish', foodSchema);
+var Foods = mongoose.model('Food', foodSchema);
 
-module.exports = Foodss;
+module.exports = Foods;

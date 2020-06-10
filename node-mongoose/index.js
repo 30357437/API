@@ -17,11 +17,18 @@ connect.then((db) => {
         console.log(food);
 
         return Foods.findByIdAndUpdate(food._id,{
-            $set : {description : 'Updated'}
-        });
+            $set : {description : 'Updated3'}
+        },{
+            new:true
+        })
+        .exec();
     })
-    .then((foods) => {
-        console.log(foods);
+    .then((food) => {
+        console.log(food);
+        food.nutritions.push({
+            vitamin :" A"
+        });
+        return food.save();
 
         return Foods.remove({});
     })

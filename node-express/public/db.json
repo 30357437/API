@@ -1,0 +1,202 @@
+{
+	"Foods": {
+			"Food": "Grapes",
+			"Colour": "Light green, purplish red, darker blueish",
+			"Size ": "1 - 4 cm",
+			"Texture": "Smooth",
+			"Smell": "Sweet ",
+			"Taste": "Sweet and juicy, skin can be chewy",
+			"Sound": "No sound",
+			"Hardness": "Slightly firm",
+			"Shape": "Oval, some are round",
+			"Juiciness": "Juicy",
+			"Structure": "Slightly firm on the inside, juicy",
+			"Moisture": "Not moist, dry skin on the outside",
+			"Density": "Quite dense",
+			"Appearance": "Little oval berries, in clusters",
+			"Plasticity": "/",
+			"Rheology": "/",
+			"Nutritional Value":{
+				"Nutritional Value per 100 g:" : [{
+				"Energy": "60 Kcal",
+				"Carbohydrates":"13.8 g",
+				"Sugar": "13.3 g",
+				"Dietary fiber": "1.4 g",
+				"Fat": "0 g",
+				"Protein" : "0.5 g",
+				"Water" : "77 g"
+
+				}],
+				"Description" : " Grapes also have a fair amount of vitamin, B1 (0.069 mg -> 6% of daily value), B2 (0.07 mg -> 6 % of daily value), B6 (0.086 mg -> 7% ofdaily value) & K (14.6 mg -> 14%of daily value) "
+			},
+			"image": [{
+				"image 1": "./images/Green Grapes.jpg",
+				"image 2": "./images/Black Grapes.png",
+				"image 3": "./images/Brown Grapes.jpg"
+			
+
+
+		},
+		{
+			"Food": "Banana",
+			"Colour": "Yellow, sometimes brown spots or markings",
+			"Size ": "15 - 22 cm",
+			"Texture": "Smooth",
+			"Smell": "Sweet, very particular",
+			"Taste": "Sweet",
+			"Sound": "No sound",
+			"Hardness": "Firm",
+			"Shape": "Curved",
+			"Juiciness": "Not juicy",
+			"Structure": "Firm, a bit sticky",
+			"Moisture": "Not moist",
+			"Density": "Very dense",
+			"Appearance": "Yellow & curved, white on the inside",
+			"Plasticity": "/",
+			"Rheology": "/",
+			"Nutritional Value":{
+				"Nutritional Value per 100 g:" : [{
+				"Energy": "86 Kcal",
+				"Carbohydrates":"19.6 g",
+				"Sugar": "16.5 g",
+				"Dietary fiber": "1.72 g",
+				"Fat": "0 g",
+				"Protein" : "1.1 g",
+				"Water" : "76.6 g"
+
+				}],
+				"Description" : "Bananas also contain a big amount of vitamin B6 (0.4 mg ->31% of daily value), and a fair amountof vitamin C (8.7 mg -> 10% of daily value), vitamin B5 (0.334 mg -> 7% of daily value), vitamin B2 (0.073 mg -> 6% of daily value) and vitamin B9 ( 20 micorog -> 5%of daily value). \n Bananas are also known for containing fair amounts of certain minerals, like manganese (0.27 mg -> 13% of daily value), magnesium (27 gm -> 8% of daily value) and potassium (358 mg -> 8% of daily value)."
+			},
+			"image": ""
+		},
+		{
+			"Food": "Mango",
+			"Colour": "Yellow, orange, red or green",
+			"Size ": "5 - 25 cm",
+			"Texture": "Smooth, leather-like",
+			"Smell": "Sweet, resinous",
+			"Taste": "Sweet and juicy",
+			"Sound": "No sound",
+			"Hardness": "Firm",
+			"Shape": "Round, oval or kidney-shaped",
+			"Juiciness": "Juicy",
+			"Structure": "Mushy on the inside, juicy",
+			"Moisture": "Not moist",
+			"Density": "Quite dense",
+			"Appearance": "Oval & smooth, darker yellow on the inside",
+			"Plasticity": "/",
+			"Rheology": "/",
+			"Nutritional Value":{
+				"Nutritional Value per 100 g:" : [{
+				"Energy": "66 Kcal",
+				"Carbohydrates":"14.1 g",
+				"Sugar": "12.2 g",
+				"Dietary fiber": "1.4 g",
+				"Fat": "0 g",
+				"Protein" : "1.5 g",
+				"Water" : "79.6 g"
+
+				}],
+				"Description" : "Mangoes also contain a lot of vitamin C(36.4 mg -> 44% of daily value) & vitamin B9 (43 mg -> 11% of daily value) and a fair amount of vitamin B6 (0.119 mg -> 9% of daily value) and  vitami E (o.9 mg -> 6% of daily value)."
+			},
+			"image": ""
+		},
+		{
+			"Food": "Cherries",
+			"Colour": "Red to nearly black",
+			"Size ": "2 cm",
+			"Texture": "Smooth",
+			"Smell": "Sweet",
+			"Taste": "Sweet and juicy",
+			"Sound": "No sound",
+			"Hardness": "Slightly firm",
+			"Shape": "Heart-shaped to nearly round",
+			"Juiciness": "Juicy",
+			"Structure": "Slightly firm on the inside, juicy",
+			"Moisture": "Not moist",
+			"Density": "Quite dense",
+			"Appearance": "Heart-shaped to round, red to almost black",
+			"Plasticity": "/",
+			"Rheology": "/",
+			"Nutritional Value":{
+				"Nutritional Value per 100 g:" : [{
+				"Energy": "55 Kcal",
+				"Carbohydrates":"13 g",
+				"Sugar": "13 g",
+				"Dietary fiber": "1.48 g",
+				"Fat": "0 g",
+				"Protein" : "0 g",
+				"Water" : "81.47 g"
+
+				}],
+				"Description" : "Cherries also contain a fair amount of vitamin C (7mg -> 8% of daily value). They also contain a fair amount of potassium (222 mg -> 5% of daily valur)."
+			},
+			"image": ""
+		},
+		{
+			"Food": "Pineapple",
+			"Colour": "Green to brown to yellow",
+			"Size ": "15 - 25 cm",
+			"Texture": "Rough and knobby",
+			"Smell": "Sweet",
+			"Taste": "Sweet and juicy",
+			"Sound": "No sound",
+			"Hardness": "Firm",
+			"Shape": "Cone shape with a lot of knobs, crown of leaves",
+			"Juiciness": "Juicy",
+			"Structure": "Slightly firm on the inside, juicy",
+			"Moisture": "Not moist, dry skin on the outside",
+			"Density": "Quite dense",
+			"Appearance": "Cone shaped, knobby, crown of leaves, yellow on the inside",
+			"Plasticity": "/",
+			"Rheology": "/",
+			"Nutritional Value":{
+				"Nutritional Value per 100 g:" : [{
+				"Energy": "52 Kcal",
+				"Carbohydrates":"11.6 g",
+				"Sugar": "10.9 g",
+				"Dietary fiber": "1.3 g",
+				"Fat": "0 g",
+				"Protein" : "0.6 g",
+				"Water" : "82.5 g"
+
+				}],
+				"Description" : "Pineapples also conatin a large amount of vitamin C (47.8 mg -> 58% of daily value) and a fair amount of vitamin B6 (0.112 mg -> 9% of daily value), B1 (0.079 mg -> 7% of daily value) and B9 (18 mg -> 5% of daily value)."
+			},
+			"image": ""
+		},
+		{
+			"Food": "Apricot",
+			"Colour": "Yellow to orange to red",
+			"Size ": "4 - 6 cm",
+			"Texture": "Smooth",
+			"Smell": "Sweet",
+			"Taste": "Sweet and juicy",
+			"Sound": "No sound",
+			"Hardness": "Slightly firm",
+			"Shape": "Nearly round",
+			"Juiciness": "Juicy",
+			"Structure": "Slightly firm on the inside, juicy",
+			"Moisture": "Not moist, dry skin on the outside",
+			"Density": "Quite dense",
+			"Appearance": "Orange and smooth, round",
+			"Plasticity": "/",
+			"Rheology": "/",
+			"Nutritional Value":{
+				"Nutritional Value per 100 g:" : [{
+				"Energy": "44 Kcal",
+				"Carbohydrates":"9 g",
+				"Sugar": "9 g",
+				"Dietary fiber": "1.8 g",
+				"Fat": "0 g",
+				"Protein" : "1 g",
+				"Water" : "86 g"
+
+				}],
+				"Description" : "Apricots also contain a lot of vitamin A (96 mg -> 12% of daily value) and vitamin C (10 mg -> 12% of daily value). They also contain a fair amount of vitamin E(0.89 mg -> 6% of daily value) and vitamin B5( 0.24 mg -> 5% of daily value)."
+			},
+			"image": ""
+		}
+	]
+	}
+}

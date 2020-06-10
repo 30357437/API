@@ -1,5 +1,5 @@
 {
-  "name": "mongo",
+  "name": "node-mongo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "assert": "^2.0.0",
-    "mongodb": "^3.5.7"
+    "mongodb": "^3.5.8"
   }
 }
