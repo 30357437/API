@@ -2,10 +2,10 @@ const mongoose = require('mongoose');
 
 const Foods = require('./models/foods');
 
-const url = 'mongodb://localhost:27017/conFusion';
+const url = 'mongodb://localhost:27017';
 const connect = mongoose.connect(url);
 
-connect.then((db) => {
+connect.then((Foods) => {
 
     console.log('Connected correctly to server');
 
@@ -30,7 +30,6 @@ connect.then((db) => {
         });
         return food.save();
 
-        return Foods.remove({});
     })
     .then(() => {
         return mongoose.connection.close();
