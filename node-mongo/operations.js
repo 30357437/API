@@ -10,11 +10,6 @@ exports.findDocuments = (db, collection, callback) => {
     coll.find({}).toArray();
 };
 
-exports.removeDocument = (db, document, collection, callback) => {
-    const coll = db.collection(collection);
-    coll.deleteOne(document);
-};
-
 exports.updateDocument = (db, document, update, collection, callback) => {
     const coll = db.collection(collection);
     coll.updateOne(document);
