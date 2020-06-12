@@ -8,7 +8,12 @@ console.log('Request for ' + req.url + ' by method ' + req.method);
 
 if (req.method == 'GET') {
 var fileUrl;
-if (req.url == '/') fileUrl = '/index.html';
+if (req.url == '/') fileUrl = '../index.js';
+else fileUrl = req.url;
+
+if (req.method == 'GET') {
+var fileUrl;
+if (req.url == '/foods') fileUrl = '../foodRouter.js';
 else fileUrl = req.url;
 
 var filePath = path.resolve('./public'+fileUrl);

@@ -7,38 +7,30 @@ const Schema = mongoose.Schema;
 
 const nutritionSchema = new Schema({
     Energy: {
-        type: String,
-        required: true
+        type: String
     },
     Carbohydrates: {
-        type: String,
-        required: true
+        type: String
     },
     Sugar: {
-        type: String,
-        required: true
+        type: String
     },
     DietaryFiber: {
-        type: String,
-        required: true
+        type: String
 
 
     },
     fat: {
-        type: String,
-        required: true
+        type: String
     },
     protein: {
-        type: String,
-        required: true
+        type: String
     },
     water: {
-        type: String,
-        required: true
+        type: String
     },
      description: {
-         type: String,
-         required: true
+         type: String
      }});
 
 const foodSchema = new Schema({
@@ -48,72 +40,62 @@ const foodSchema = new Schema({
         unique: true
     },
     colour : {
-        type : String,
-        required : true
+        type : String
+        
 
     },
     size : {
-        type : String,
-        require : true
+        type : String
+        
     },
     texture : {
-        type : String,
-        required : true
+        type : String
     },
     smell : {
-        type : String,
-        required : true
+        type : String
     } ,
     taste: {
-        type: String,
-        required: true
+        type: String
     },
     sound : {
-        type: String,
-        required: true
+        type: String
     },
     hardness : {
-        type: String,
-        required: true
+        type: String
     },
     shape: {
-        type: String,
-        required: true
+        type: String
     },
     juiciness : {
-        type: String,
-        required: true
+        type: String
     },
     structure : {
-        type: String,
-        required: true
+        type: String
     },
     moisture : {
-        type: String,
-        required: true
+        type: String
     },
     density: {
-        type: String,
-        required: true
+        type: String
     },
     appearance: {
-        type: String,
-        required: true
+        type: String
     },
     plasticity: {
-        type: String,
-        required: true
+        type: String
     },
     rheology : {
-        type: String,
-        required: true
+        type: String
+        
     },
     nutrition : [nutritionSchema]
    
 },
 
 {
-    timestamps: true
+    timestamps: true,
+        type: Date,
+        default: Date.now
 });
 
 

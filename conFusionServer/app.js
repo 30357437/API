@@ -11,12 +11,14 @@ const foodRouter = require('./routes/foodRouter');
 
 const mongoose = require('mongoose');
 
-const Foods = require('./models/foods');
+const foods = require('./models/foods');
 
 const Url = 'mongodb://localhost:27017/conFusion';
 
 const connect = mongoose.connect(Url);
-connect.then((db) =>{
+
+
+connect.then((_db) =>{
   console.log('Connected correctly to the server');
 }, (err) => {console.log(err); });
 const app = express();
